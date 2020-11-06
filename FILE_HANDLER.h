@@ -41,7 +41,7 @@ int BOOK::check_id_list(int x_id){
 	int x;
 	string name, author;
 	
-	id_file.open("data/id.txt");
+	id_file.open("id.txt");
 	if (!id_file){
 		cout <<"File Failed to open"<<endl;
 	}	
@@ -94,7 +94,7 @@ int BOOK::check_in_list(string name_passed, int check =0){
 	int x;
 	string name, author;
 	
-	id_file.open("data/id.txt");
+	id_file.open("id.txt");
 	if (!id_file){
 		cout <<"File Failed to open"<<endl;
 	}	
